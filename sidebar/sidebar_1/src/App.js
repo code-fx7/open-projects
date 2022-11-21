@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Helmet } from "react-helmet";
 import { ThemeProvider } from "styled-components";
-import Layout from "./components/Layout/Layout";
+import Layout from "./components/Layout/Layout.js";
 import Routing from "./Routes.js";
-import { GlobalStyle } from "./styles/globalStyles";
+import { GlobalStyle } from "./styles/globalStyles.js";
 import { darkTheme, lightTheme } from "./styles/theme";
 
 export const ThemeContext = React.createContext(null);
